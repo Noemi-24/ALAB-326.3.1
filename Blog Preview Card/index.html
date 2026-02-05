@@ -5,35 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/Blog Preview Card/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <title>Frontend Mentor | Blog preview card</title>
 
 </head>
 <body>
-  <div class="card-container">
-    <div class="img-container">
-        <img class="hero-img"src="/assets/images/illustration-article.svg" alt="Description of the image">
+    <div class="container d-flex flex-column justify-content-center align-items-center m-auto">
+        <div class="card text-left rounded-4 shadow mb-5" style="width: 23rem;">
+            <img class="hero-img p-3 rounded-4" src="/Blog Preview Card/assets/images/illustration-article.svg" alt="Blog image">
+            <div class="card-body">
+                <div class="p-2 figtree-header rounded-4">Learning</div>
+                <p class="card-text pt-3 figtree-p">Published 21 Dec 2023</p>
+                <h4 class="card-title figtree-header"> HTML & CSS foundations</h4>
+                <p class="card-text pt-2 figtree-p color">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+                <img src="/Blog Preview Card/assets/images/image-avatar.webp" class="" alt="Avatar image"><span class="card-text p-2 figtree-header ">Greg Hooper</span>
+            </div>
+        </div>
     </div>
-    <div class="body-container">
-      <button>Learning</button>
-      <p class="date">Published 21 Dec 2023</p>
-      <h2> HTML & CSS foundations</h2>
-      <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-    </div>
-    <div class="avatar-container">
-      <img class="avatar"src="/assets/images/image-avatar.webp" alt="Description of the image"><span>Greg Hooper</span>
-    </div>
-  </div>
-  
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Noemi Delgadillo Roldan</a>.
-    </div>
-  </footer>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <footer class="footer fixed-bottom text-center">
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Noemi Delgadillo Roldan</a>.
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   
 </body>
 </html>
