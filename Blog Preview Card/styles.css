@@ -29,9 +29,6 @@ body{
     font-size: 16px;
 }
 
-button{
-    background-color: hsl(47, 88%, 63%);
-}
 .color{
     color:hsl(0, 0%, 42%);
 }
